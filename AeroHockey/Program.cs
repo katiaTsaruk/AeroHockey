@@ -6,7 +6,7 @@ using Color = SFML.Graphics.Color;
 
 namespace AeroHockey
 { 
-    class Game
+    class Program
     {
         static void Main(string[] args)
         {
