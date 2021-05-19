@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da558d2-d3c2-40ee-a957-c6c1ad434657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AeroHockey/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AeroHockey/GreenScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AeroHockey/Paddle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/AeroHockey.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/AeroHockey.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Paddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Paddle.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/7/Rect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/6/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/10/Texture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/05D63644-173A-4317-A736-6897C774F7B3/8/Keyboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AeroHockey/GreenScreen.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/8/RectangleShape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/D/Shape.cs" root0="SKIP_HIGHLIGHTING" />
@@ -37,8 +34,8 @@
       <option value="$PROJECT_DIR$/AeroHockey/hjh.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/GreenScreen.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/Program.cs" />
-      <option value="$PROJECT_DIR$/AeroHockey/Paddle.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/Game.cs" />
+      <option value="$PROJECT_DIR$/AeroHockey/Paddle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sXDwVNvsKs5AR0RJMMO6rMDvWp" />
@@ -90,6 +87,7 @@
       <workItem from="1621359417256" duration="121000" />
       <workItem from="1621359552039" duration="180000" />
       <workItem from="1621359837967" duration="10378000" />
+      <workItem from="1621435512551" duration="11504000" />
     </task>
     <servers />
   </component>
