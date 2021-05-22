@@ -11,8 +11,10 @@ namespace AeroHockey
         private const int windowWidth = 1280;
         private const int windowHeight = 720;
         private RenderWindow window;
-        Paddle paddle1=new Paddle(true,40,90,windowWidth,windowHeight);
-        Paddle paddle2=new Paddle(false,40,90,windowWidth,windowHeight);
+        Paddle paddle1=new Paddle(true,windowWidth,windowHeight);
+        Paddle paddle2=new Paddle(false,windowWidth,windowHeight);
+        Ball ball =new Ball(windowWidth,windowHeight);
+        private Collision collision = new Collision();
 
         public void Start()
         {
@@ -22,8 +24,10 @@ namespace AeroHockey
             while (window.IsOpen)
             {
                 window.Clear();
-                window.Draw(paddle1.paddle);
-                window.Draw(paddle2.paddle);
+                window.Draw(paddle1.rectangleShape);
+                window.Draw(paddle2.rectangleShape);
+                window.Draw(ball.circleShape);
+                MoveBall();
                 MovePaddle();
                 window.DispatchEvents();
                 window.Display();
@@ -31,7 +35,7 @@ namespace AeroHockey
         }
         public void MovePaddle()
         {
-            float delta = 0.1f;
+            float delta = 0.15f;
             if (Keyboard.IsKeyPressed(Keyboard.Key.W))
             {
                 paddle1.ChangePosition(-delta);
@@ -55,7 +59,15 @@ namespace AeroHockey
             RenderWindow w = (RenderWindow)sender;
             w.Close();
         }
-        
+        public void MoveBall()
+        {
+            float deltaX = 1f;
+            float deltaY = 2f;
+            if (collision.CheckForCollision(deltaX, deltaY))
+            {
+                ball.circleShape.Position = new Vector2f(ball.circleShape.Position.X+deltaX,ball.circleShape.Position.Y+deltaY);
+            }
+        }
         // moglo bi bit krasivo no vidimo net(((
         // private void Background()
         // {
