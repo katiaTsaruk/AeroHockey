@@ -11,10 +11,17 @@ namespace AeroHockey
         private const int windowWidth = 1280;
         private const int windowHeight = 720;
         private RenderWindow window;
-        Paddle paddle1=new Paddle(true,windowWidth,windowHeight);
-        Paddle paddle2=new Paddle(false,windowWidth,windowHeight);
-        Ball ball =new Ball(windowWidth,windowHeight);
-        private Collision collision = new Collision();
+        public Paddle paddle1=new Paddle(true,windowWidth,windowHeight);
+        public Paddle paddle2=new Paddle(false,windowWidth,windowHeight);
+        public Ball ball =new Ball(windowWidth,windowHeight);
+
+        private Physics physics;
+
+        public Game()
+        {
+            physics = new Physics(ball, paddle1, paddle2,
+                windowWidth, windowHeight);
+        }
 
         public void Start()
         {
@@ -27,7 +34,12 @@ namespace AeroHockey
                 window.Draw(paddle1.rectangleShape);
                 window.Draw(paddle2.rectangleShape);
                 window.Draw(ball.circleShape);
-                MoveBall();
+                EndRound();
+                if (EndRound())
+                {
+                    ball.CreateBall();
+                }
+                physics.MoveBall();
                 MovePaddle();
                 window.DispatchEvents();
                 window.Display();
@@ -54,20 +66,20 @@ namespace AeroHockey
             }
         }
 
+        private bool EndRound()
+        {
+            if (ball.circleShape.Position.X > paddle1.rectangleShape.Position.X + paddle1.width / 2 &&
+                ball.circleShape.Position.X < paddle2.rectangleShape.Position.X - paddle2.width / 2) 
+                return false;
+            else return true;
+        }
+
         private void WindowClosed(object sender, EventArgs e)
         {
             RenderWindow w = (RenderWindow)sender;
             w.Close();
         }
-        public void MoveBall()
-        {
-            float deltaX = 1f;
-            float deltaY = 2f;
-            if (collision.CheckForCollision(deltaX, deltaY))
-            {
-                ball.circleShape.Position = new Vector2f(ball.circleShape.Position.X+deltaX,ball.circleShape.Position.Y+deltaY);
-            }
-        }
+
         // moglo bi bit krasivo no vidimo net(((
         // private void Background()
         // {

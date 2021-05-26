@@ -9,8 +9,8 @@ namespace AeroHockey
     {
         public RectangleShape rectangleShape = new RectangleShape();
         private bool isPlayer1;
-        private const int width=40;
-        private const int height=90;
+        public int width=40;
+        public int height=90;
         private int windowWidth;
         private int windowHeight;
 

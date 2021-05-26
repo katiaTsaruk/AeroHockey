@@ -8,7 +8,6 @@
         <e p="AeroHockey.csproj" t="IncludeRecursive" />
         <e p="Ball.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Collision.cs" t="Include" />
         <e p="Game.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -18,6 +17,7 @@
           </e>
         </e>
         <e p="Paddle.cs" t="Include" />
+        <e p="Physics.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="AeroHockey.sln" t="IncludeFlat" />

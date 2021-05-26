@@ -17,7 +17,7 @@ namespace AeroHockey
             CreateBall();
         }
 
-        private void CreateBall()
+        public  void CreateBall()
         {
             circleShape.Radius = radius;
             circleShape.Origin=new Vector2f(circleShape.Radius/2,circleShape.Radius/2);
