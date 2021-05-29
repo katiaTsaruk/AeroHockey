@@ -5,7 +5,7 @@ using System.Drawing;
 using SFML.System;
 using Color = SFML.Graphics.Color;
 
-namespace AeroHockey
+namespace Agario
 { 
     class Program
     {

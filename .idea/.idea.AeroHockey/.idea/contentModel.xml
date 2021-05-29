@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Катруся\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Катруся\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_AeroHockey.-1303442954.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Катруся\RiderProjects\AeroHockey" t="IncludeFlat">
-      <e p="AeroHockey" t="IncludeRecursive">
-        <e p="AeroHockey.csproj" t="IncludeRecursive" />
-        <e p="Ball.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Game.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="net5.0" t="Include">
-              <e p="AeroHockey.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Paddle.cs" t="Include" />
-        <e p="Physics.cs" t="Include" />
-        <e p="Program.cs" t="Include" />
-      </e>
+    <e p="C:\Users\Катруся\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_AeroHockey.-1099488347.00" t="ExcludeRecursive" />
+    <e p="D:\Katia\RiderProjects\Agario\AeroHockey" t="IncludeFlat">
       <e p="AeroHockey.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

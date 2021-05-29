@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da558d2-d3c2-40ee-a957-c6c1ad434657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AeroHockey/Physics.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AeroHockey/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/Collision.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AeroHockey/Paddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AeroHockey/Paddle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Agario.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Agario.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/AeroHockey.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Agario.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Paddle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Paddle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Physics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Physics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AeroHockey/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +25,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/6/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/05D63644-173A-4317-A736-6897C774F7B3/8/Keyboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agario/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/8/RectangleShape.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/D/Shape.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF4B14B0-2FF9-4A85-8962-6FA5288DDC78/db/17512829/ObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF4B14B0-2FF9-4A85-8962-6FA5288DDC78/27/60287e38/Vector2f.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/7/Rect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/12/Transformable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/6/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/10/Texture.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/05D63644-173A-4317-A736-6897C774F7B3/8/Keyboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/8/RectangleShape.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/D/Shape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/B/RenderWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E68FBA52-605F-4EEE-8878-3890392BDDFC/33/a636eb84/0200000Dpdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF4B14B0-2FF9-4A85-8962-6FA5288DDC78/db/17512829/ObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Agario/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -42,8 +47,8 @@
       <option value="$PROJECT_DIR$/AeroHockey/Paddle.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/Collision.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/Ball.cs" />
-      <option value="$PROJECT_DIR$/AeroHockey/Game.cs" />
       <option value="$PROJECT_DIR$/AeroHockey/Physics.cs" />
+      <option value="$PROJECT_DIR$/AeroHockey/Game.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sXDwVNvsKs5AR0RJMMO6rMDvWp" />
@@ -59,23 +64,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RiderCSharpFileTemplatesSettingsId" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="AeroHockey" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+    <configuration name="Agario" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Agario/bin/Debug/net5.0/Agario.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Agario" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AeroHockey/AeroHockey.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Agario/Agario.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="0" />
+      <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -100,7 +105,16 @@
       <workItem from="1621623318716" duration="1247000" />
       <workItem from="1621699763555" duration="11872000" />
       <workItem from="1621966981910" duration="630000" />
-      <workItem from="1622045646604" duration="10074000" />
+      <workItem from="1622045646604" duration="10178000" />
+      <workItem from="1622143023323" duration="63000" />
+      <workItem from="1622292698220" duration="14000" />
+      <workItem from="1622292948523" duration="22000" />
+      <workItem from="1622293091141" duration="144000" />
+      <workItem from="1622293561420" duration="333000" />
+      <workItem from="1622294592901" duration="217000" />
+      <workItem from="1622294987733" duration="21000" />
+      <workItem from="1622301014510" duration="1218000" />
+      <workItem from="1622305070228" duration="525000" />
     </task>
     <servers />
   </component>
