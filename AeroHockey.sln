@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agario", "Agario\Agario.csproj", "{AD97F278-E488-4335-BF6B-2A62B6359F92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeroHockey", "AeroHockey\AeroHockey.csproj", "{AD97F278-E488-4335-BF6B-2A62B6359F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
